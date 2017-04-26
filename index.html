@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Jyotsna Singh</title>
+	 <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+
+	 	  <style type="text/css">
+	  
+		 
+		  @font-face{
+			  
+			  font-family: spicy-rice;
+				  src: url("assets/fonts/spicy-rice.regular.ttf");
+		  }
+		  #heading{
+			  font-family: spicy-rice;
+			  font-size: 120px;
+			  color: white;
+		  }	  
+			  
+		  .pink-text{
+				color: #FF4390;
+			  }
+			  
+			  .spicy-rice-font{
+				  font-family: spicy-rice;
+			  font-size: 40px;
+			  color: white;
+				  
+			  }
+	  </style>
+    
+    
+
+   
+  </head>
+
+  <body>
+	  <br><br>
+	  <div class="container">
+		 	<p id="heading" class="">Jyotsna <span class="pink-text">Singh</span></p>
+		   <br><br>
+			 <p id="js-profile" class="spicy-rice-font"></p>
+	  </div>
+	<script>
+            
+              $('#js-profile').typeIt({
+               speed: 100,
+               autoStart: false
+                })
+                .tiType('Hi..!')
+                .tiPause(500)
+                .tiDelete(5)
+                .tiType('I\'m a FullStack Web Developer')
+                .tiPause(1000)
+              	.tiBreak()
+                .tiType('Based in Gurgaon')
+                .tiPause(500)
+                .tiDelete(4)
+                .tiSettings({speed: 50})
+                .tiType('ugram, India')
+              
+                
+    </script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
